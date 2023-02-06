@@ -89,7 +89,7 @@ rhop = 1.1*rhol # kg/m^3
 # Boltzmann constant
 kB = 1.38*10**-23 # m2kg/s/s/K
 # Temperature of system (K)
-T = 273 #K
+T = 273 #K kelvin
 
 # Beta for differential settling
 betaDS = (np.pi*g/(72*mu))*np.absolute(di-dj)*(rhop-rhol)*(di+dj)**3
